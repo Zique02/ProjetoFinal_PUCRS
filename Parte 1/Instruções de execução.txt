@@ -1,0 +1,38 @@
+-- Este documento fornece instruções sobre como configurar e executar o projeto --
+
+= Pré-requisitos =
+
+- Ter a última versão do Node.js
+------------------------------------------------------------------------
+
+= Configurando o projeto =
+
+para inicializar o npm, escreva no terminal:
+
+     npm init --yes
+
+para instalar a dependência, use:
+
+     npm install bycontract
+
+------------------------------------------------------------------------
+
+= Executando exemplos de uso =
+
+pelo terminal, vá até a pasta de exemplos, la onde estão os exemplos de uso:
+
+    cd .\exemplos
+
+para executar algum arquivo de exemplo de uso, digite no terminal:
+
+    node .\nome_do_exemplo.js
+
+------------------------------------------------------------------------
+
+ATENÇÃO: caso este erro aparecer ao tentar executar um exemplo de uso:
+
+    "SyntaxError: Cannot use import statement outside a module"
+
+abra o arquivo package.json e adicione abaixo de "version" a linha:
+
+    "type": "module",
